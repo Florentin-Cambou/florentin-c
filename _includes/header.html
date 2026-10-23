@@ -1,0 +1,9 @@
+<header class="site-header">
+  <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <nav class="site-nav" aria-label="Navigation principale">
+    {% assign path = page.url %}
+    <a href="{{ '/blog/' | relative_url }}"{% if path contains '/blog' %} aria-current="page"{% endif %}>Blog</a>
+    <a href="{{ '/projets/' | relative_url }}"{% if path contains '/projets' %} aria-current="page"{% endif %}>Projets</a>
+    <a href="{{ '/a-propos/' | relative_url }}"{% if path contains '/a-propos' %} aria-current="page"{% endif %}>À propos</a>
+  </nav>
+</header>

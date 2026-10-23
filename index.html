@@ -1,0 +1,54 @@
+---
+layout: default
+title: Accueil
+---
+<section class="hero">
+  <h1>Détecter, attaquer, documenter.</h1>
+  <p class="hero-lede">Autodidacte en cybersécurité et en IT. Je publie ici mes configurations Wazuh, mes règles de détection et ma progression en pentest.</p>
+
+  <div class="alert" role="img" aria-label="Fiche de profil présentée comme une alerte Wazuh : certification eJPT v2 obtenue, parcours HTB CPTS en cours, spécialités Wazuh, détection et pentest.">
+    <div class="alert-bar" aria-hidden="true"><span>wazuh-manager / alerts.json</span><span class="alert-level">niveau 12</span></div>
+    <span class="row" style="--i:0" aria-hidden="true"><span class="k">rule.description</span>  <span class="v">Profil analyste en progression détecté</span></span>
+    <span class="row" style="--i:1" aria-hidden="true"><span class="k">agent.name       </span>  <span class="v">{{ site.github | default: "analyste" }}</span></span>
+    <span class="row" style="--i:2" aria-hidden="true"><span class="k">certification     </span>  <span class="hot">eJPT v2 (INE), obtenue</span></span>
+    <span class="row" style="--i:3" aria-hidden="true"><span class="k">formation en cours</span>  <span class="v">HTB Academy, parcours CPTS</span></span>
+    <span class="row" style="--i:4" aria-hidden="true"><span class="k">pratique          </span>  <span class="v">boxes HTB, lab Wazuh personnel</span></span>
+    <span class="row" style="--i:5" aria-hidden="true"><span class="k">statut            </span>  <span class="hot">ouvert aux opportunités</span></span>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Derniers articles</h2>
+  {% if site.posts.size > 0 %}
+  <ul class="post-list">
+    {% for post in site.posts limit: 4 %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="section-more"><a href="{{ '/blog/' | relative_url }}">Voir tous les articles</a></p>
+  {% else %}
+  <p>Aucun article publié pour l'instant. Ajoutez un fichier dans le dossier <code>_posts</code> pour commencer.</p>
+  {% endif %}
+</section>
+
+<section class="section">
+  <h2>Ce sur quoi je travaille</h2>
+  <dl class="skills">
+    <div>
+      <dt>Détection avec Wazuh</dt>
+      <dd>Déploiement d'un lab, agents Linux et Windows, règles et décodeurs personnalisés, intégrité des fichiers, réduction du bruit.</dd>
+    </div>
+    <div>
+      <dt>Pentest</dt>
+      <dd>Certifié eJPT v2. Parcours CPTS de Hack The Box Academy en cours, avec des boxes actives pour s'entraîner.</dd>
+    </div>
+    <div>
+      <dt>Systèmes et réseaux</dt>
+      <dd>Administration Linux et Windows, services réseau, virtualisation. À compléter avec vos propres compétences.</dd>
+    </div>
+  </dl>
+</section>

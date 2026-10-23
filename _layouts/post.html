@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="prose post">
+  <header class="post-header">
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>
+      {% if page.categories.size > 0 %}<span>{{ page.categories | join: ", " }}</span>{% endif %}
+      <span>{{ content | number_of_words | divided_by: 200 | plus: 1 }} min de lecture</span>
+    </p>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="post-lede">{{ page.description }}</p>{% endif %}
+  </header>
+
+  {{ content }}
+
+  <footer class="post-footer">
+    <a href="{{ '/blog/' | relative_url }}">Retour à tous les articles</a>
+  </footer>
+</article>

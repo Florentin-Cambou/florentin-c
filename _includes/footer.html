@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <p>© {{ site.time | date: "%Y" }} {{ site.author }}. Les labs et tests décrits ici sont réalisés sur mes propres environnements ou sur des plateformes d'entraînement autorisées.</p>
+  <p class="footer-links">
+    {% if site.github != "" %}<a href="https://github.com/{{ site.github }}">GitHub</a>{% endif %}
+    {% if site.linkedin != "" %}<a href="https://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a>{% endif %}
+    {% if site.htb != "" %}<a href="https://app.hackthebox.com/profile/{{ site.htb }}">Hack The Box</a>{% endif %}
+    {% if site.email != "" %}<a href="mailto:{{ site.email }}">E-mail</a>{% endif %}
+    <a href="{{ '/feed.xml' | relative_url }}">Flux RSS</a>
+  </p>
+</footer>

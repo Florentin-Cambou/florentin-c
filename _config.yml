@@ -1,0 +1,41 @@
+# ─────────────────────────────────────────────
+#  Configuration du site — à adapter
+# ─────────────────────────────────────────────
+title: "Florentin Cambou"
+tagline: "Cybersécurité défensive et apprentissage autodidacte"
+description: "Portfolio et blog cybersécurité : configurations Wazuh, règles de détection, (eJPT, road to BTL1)."
+lang: fr
+author: "Florentin Cambou"
+
+# Si votre dépôt s'appelle <pseudo>.github.io : laissez baseurl vide.
+# Si votre dépôt a un autre nom (ex: portfolio) : mettez baseurl: "/portfolio".
+url: "https://florentin-c.github.io"
+baseurl: ""
+
+# Liens de contact (laissez vide pour masquer un lien)
+github: "florentin-c"
+linkedin: ""
+htb: ""
+email: ""
+
+# Jekyll
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:year/:month/:title/
+timezone: Europe/Paris
+paginate: 0
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
