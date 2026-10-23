@@ -8,13 +8,13 @@ lang: fr
 author: "Florentin Cambou"
 
 
-url: "https://florentin-c.github.io"
-baseurl: ""
+url: "https://florentin-cambou.github.io"
+baseurl: "/florentin-c"
 
 # Liens de contact (laissez vide pour masquer un lien)
-github: "florentin-c"
-linkedin: ""
-htb: ""
+github: "Florentin-Cambou"
+linkedin: "https://www.linkedin.com/in/florentin-cambou/"
+thm: "https://tryhackme.com/p/florentincambou"
 email: ""
 
 # Jekyll
