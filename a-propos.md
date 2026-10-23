@@ -4,7 +4,7 @@ title: À propos
 permalink: /a-propos/
 ---
 
-Je suis technicien informatique N2-N3 en reconversion en autodidacte dans la cyber sécurité. J'ai commencé par une approche offensive pour comprendre comment un attaquant procéde pour s'introduire dans un SI. Ce parcours offensive s'est soldé par l'obtension de la certification eJPT (Junior Penetration Tester).
+Je suis technicien informatique N1-N2 en reconversion  autodidacte dans la cyber sécurité. J'ai commencé par une approche offensive pour comprendre comment un attaquant procéde pour s'introduire dans un SI. Ce parcours offensive s'est soldé par l'obtension de la certification eJPT (Junior Penetration Tester) délivré par INE.
 
 Après cet étape offenssive je me dirige actuellement vers un milieux qui m'intéresse encore plus la blueteam notamment tout ce qui touche au SOC Analyste N2-N3 / Threat hunting et une posture d'ingénieur SIEM/SOC
 ## Ce que vous trouverez ici
@@ -12,6 +12,7 @@ Après cet étape offenssive je me dirige actuellement vers un milieux qui m'int
 - Des **configurations Wazuh** expliquées pas à pas
 - Des **règles de détection** testées, avec la méthode pour les valider
 - Des **conseils** pour réduire le bruit et améliorer la qualité des alertes
+- Des **Investigation** Lab d'entrainement sur les plateforme BTLO etc ...
 - Des **retours sur ma progression**
 
 En bref tout ce qui touche à la blueteam si je continue la liste elle n'en terminerais plus.
@@ -22,4 +23,4 @@ Ce site me sert de blog et aussi de portfolio pour complèter mes postes linkedi
 
 ## Me contacter
 
-Les liens sont en bas de chaque page. Le plus simple est d'écrire sur LinkedIn.
+Pour me contacter veillez privilégié Linkedin.

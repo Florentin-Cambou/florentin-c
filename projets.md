@@ -4,29 +4,30 @@ title: Projets
 permalink: /projets/
 ---
 
-Voici les projets et parcours en cours. Remplacez chaque entrée par vos réalisations réelles, avec un lien vers l'article ou le dépôt qui les détaille.
+Voici les projets et les parcours d'apprentissage réalisé ou en cours de réalisation.
 
 <div class="project" markdown="1">
 
-## Lab Wazuh personnel
+## Wazuh en production
 
 <p class="status">En cours</p>
 
-Un serveur Wazuh en machine virtuelle, avec des agents Linux et Windows. Il me sert à tester des règles de détection, à simuler des comportements suspects et à mesurer le bruit généré.
+Déploiement,configuration et gestion de Wazuh en production dans l'entreprise ou je suis actuellement employé officiellement comme Technicien informatique N1-N2
 
 - Déploiement du serveur et enrôlement des agents
 - Règles et décodeurs personnalisés
-- Surveillance de l'intégrité des fichiers
+- Réduction des faux positifs
+- Surveillance du parc et de ses vulnérabilités/Alertes
 
 </div>
 
 <div class="project" markdown="1">
 
-## Parcours CPTS, Hack The Box Academy
+## Parcours Blue Team
 
 <p class="status">En cours</p>
 
-Le parcours de préparation à la certification HTB CPTS. J'y associe des boxes actives pour appliquer la méthodologie dans des conditions réalistes.
+Actuellement en monté de compétence en Blue Team je suis actuellement très actif sur TryHackMe je compte prochainement passer la certification BTL1
 
 </div>
 
@@ -37,5 +38,6 @@ Le parcours de préparation à la certification HTB CPTS. J'y associe des boxes 
 <p class="status done">Obtenue</p>
 
 Première certification pratique en pentest : énumération, exploitation, post-exploitation et pivoting sur un réseau de test.
+Ceci me permet de comprendre le process d'un attaquant et également de pouvoir tester des choses de mon côté pour pouvoir rédiger de meilleure règles de détection dans un SIEM/EDR
 
 </div>

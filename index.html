@@ -4,15 +4,15 @@ title: Accueil
 ---
 <section class="hero">
   <h1>Détecter, attaquer, documenter.</h1>
-  <p class="hero-lede">Autodidacte en cybersécurité et en IT. Je publie ici mes configurations Wazuh, mes règles de détection et ma progression en pentest.</p>
+  <p class="hero-lede">Autodidacte en cybersécurité. Je publie ici mes avancés dans la blueteam, mes découvertes etc...</p>
 
-  <div class="alert" role="img" aria-label="Fiche de profil présentée comme une alerte Wazuh : certification eJPT v2 obtenue, parcours HTB CPTS en cours, spécialités Wazuh, détection et pentest.">
+  <div class="alert" role="img" aria-label="Fiche de profil présentée comme une alerte Wazuh : certification eJPT v2 obtenue, parcours progression en blueteam en cours, spécialités Wazuh, détection et blueteam en général.">
     <div class="alert-bar" aria-hidden="true"><span>wazuh-manager / alerts.json</span><span class="alert-level">niveau 12</span></div>
-    <span class="row" style="--i:0" aria-hidden="true"><span class="k">rule.description</span>  <span class="v">Profil analyste en progression détecté</span></span>
+    <span class="row" style="--i:0" aria-hidden="true"><span class="k">rule.description</span>  <span class="v">Profil analyste SOC/Threat hunting, en progression détecté</span></span>
     <span class="row" style="--i:1" aria-hidden="true"><span class="k">agent.name       </span>  <span class="v">{{ site.github | default: "analyste" }}</span></span>
     <span class="row" style="--i:2" aria-hidden="true"><span class="k">certification     </span>  <span class="hot">eJPT v2 (INE), obtenue</span></span>
-    <span class="row" style="--i:3" aria-hidden="true"><span class="k">formation en cours</span>  <span class="v">HTB Academy, parcours CPTS</span></span>
-    <span class="row" style="--i:4" aria-hidden="true"><span class="k">pratique          </span>  <span class="v">boxes HTB, lab Wazuh personnel</span></span>
+    <span class="row" style="--i:3" aria-hidden="true"><span class="k">formation en cours/Visé</span>  <span class="v">Parcours BLT1</span></span>
+    <span class="row" style="--i:4" aria-hidden="true"><span class="k">pratique          </span>  <span class="v">homelab, SIEM en production entreprise, apprentissage THM</span></span>
     <span class="row" style="--i:5" aria-hidden="true"><span class="k">statut            </span>  <span class="hot">ouvert aux opportunités</span></span>
   </div>
 </section>
@@ -31,7 +31,7 @@ title: Accueil
   </ul>
   <p class="section-more"><a href="{{ '/blog/' | relative_url }}">Voir tous les articles</a></p>
   {% else %}
-  <p>Aucun article publié pour l'instant. Ajoutez un fichier dans le dossier <code>_posts</code> pour commencer.</p>
+  <p>Aucun article publié pour l'instant. Revenez plus tard cela arrive très vite.</p>
   {% endif %}
 </section>
 
@@ -44,11 +44,11 @@ title: Accueil
     </div>
     <div>
       <dt>Pentest</dt>
-      <dd>Certifié eJPT v2. Parcours CPTS de Hack The Box Academy en cours, avec des boxes actives pour s'entraîner.</dd>
+      <dd>Certifié eJPT v2. Permets de pouvoir mener des petits test d'intrusion et de comprendre le process d'un attaquant.</dd>
     </div>
     <div>
-      <dt>Systèmes et réseaux</dt>
-      <dd>Administration Linux et Windows, services réseau, virtualisation. À compléter avec vos propres compétences.</dd>
+      <dt>Blue Team</dt>
+      <dd>Formation autodidacte sur le thème de l'analyste SOC / Ingénieur SOC et le Threat Hunting</dd>
     </div>
   </dl>
 </section>
