@@ -65,4 +65,4 @@ Après chaque modification -> `wazuh-logtest` pour voir le résultat, `wazuh-ana
 La qualité d'une détection se mesure moins au nombre d'alertes qu'à la proportion d'alertes sur lesquelles quelqu'un agit. Chaque règle ajoutée ou réduit au silence doit pouvoir être expliqué en une phrase.
 
 Merci d'avoir lu se premier billet de blog la tâche n'est pas aisé c'est une grande première pour moi de partager ainsi ce que je fait de mon côté. 
-Le log s'éttofera au fur et à mesure du temps que je peu allouer à la rédaction. Bien sur il n y auras pas que du Wazuh mais tout l'aspect blue team que je vous partegerais ainsi au gré de mon évolution dans le sujet.
+Le blog s'éttofera au fur et à mesure du temps que je peux allouer à la rédaction. Bien sur il n y auras pas que du Wazuh mais tout l'aspect blue team que je vous partegerais ainsi au gré de mon évolution dans le sujet.
