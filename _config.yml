@@ -9,7 +9,7 @@ author: "Florentin Cambou"
 
 
 url: "https://orionsec.fr"
-baseurl: "/florentin-c"
+baseurl: "/"
 
 # Liens de contact (laissez vide pour masquer un lien)
 github: "Florentin-Cambou"
